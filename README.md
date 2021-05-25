@@ -11,8 +11,12 @@ https://github.com/powersimmani/nile-red-microplastic-images
 
 
 ## For citation
-새로운 아이디어 환영합니다. 
 
+Readers may use the following information to cite our research and the dataset.
+
+Baek, J. Y., de Guzman, M. K., Park, H. M., Park, S., Shin, B., Velickovic, T. C., ... & De Neve, W. (2021). Developing a Segmentation Model for Microscopic Images of Microplastics Isolated from Clams. In Pattern Recognition. ICPR International Workshops and Challenges (pp. 86-97). Springer International Publishing.
+
+**We also glad to get the new idea for upgrading software please feel free to contact us using 'issues' or following email address: homin.park@ghent.ac.kr**
 
 ## References
 
