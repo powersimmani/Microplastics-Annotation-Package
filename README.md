@@ -6,7 +6,7 @@
 
 ## More sample images
 
-Please refer the following URL
+Please refer the following URL:
 https://github.com/powersimmani/nile-red-microplastic-images
 
 
