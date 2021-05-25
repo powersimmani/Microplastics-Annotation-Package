@@ -10,8 +10,9 @@
 
 ## References
 
-Tool making: https://stackoverflow.com/questions/35508711/how-to-enable-pan-and-zoom-in-a-qgraphicsview
-MP-VAT: https://mpvat.wordpress.com/
-processing with image thresholding: 
-U-Net:
+- Tool making: https://stackoverflow.com/questions/35508711/how-to-enable-pan-and-zoom-in-a-qgraphicsview
+- MP-VAT: https://mpvat.wordpress.com/
+- processing with image thresholding: 
+- U-Net: Ronneberger, O., Fischer, P., & Brox, T. (2015, October). U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention (pp. 234-241). Springer, Cham.
+
 
