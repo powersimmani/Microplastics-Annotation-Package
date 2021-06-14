@@ -1,7 +1,7 @@
 # you-only-label-once
 
 ## Project
-다른 깃 혹은 프로젝트와 연계될 예정임
+다른 깃 혹은 프로젝트와 연계될 예정임 -> 그릶 추가 
 
 
 ## Additional informations
