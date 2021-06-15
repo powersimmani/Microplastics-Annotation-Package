@@ -2,6 +2,12 @@
 
 ## Project
 다른 깃 혹은 프로젝트와 연계될 예정임 -> 그릶 추가 
+직접 경험하고 비교해보지 않으면 선택이 어려울 수 있다. 따라서 독자들이 실제 MP monitoring process를 수행해 볼 수 있도록  integrated MP annotation / monitoring tool을 제공한다. 이 모델은 다음 4가지를 목표로 하여 제작되었다. 
+
+1. 이미지 편집과 MP annotation 도구를 제공하여 쉽게 오류를 고칠 수 있도록 도와준다. 
+2. 다양한 Table~\ref{tbl:method_differences}TR model 사용자가 직접 자동화 툴을 제공하여 사용자가 스스로 비교하고 맞는것을 선택할 수 있게 한다. 
+3. Particle count measuring을 시각적으로 분석하게 도와준다. 
+4. annotation이 완료된 내용을 쉽게 모델에 학습할 수 있도록 한다. 
 
 
 ## Additional informations
