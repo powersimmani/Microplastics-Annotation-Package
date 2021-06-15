@@ -10,7 +10,9 @@ Guide video: ???
 More sample images: https://github.com/powersimmani/nile-red-microplastic-images
 
 ## Parameter download
-파라미터 
+
+For testing our model, please download the file through the following link, unzip it, and add it to the best_model directory.
+https://drive.google.com/file/d/1nDjRdfTN-ExjWDpKULmEaCkbohpxiMUg/view?usp=sharing
 
 ## For citation
 
