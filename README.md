@@ -17,7 +17,7 @@ More sample images: https://github.com/powersimmani/nile-red-microplastic-images
 
 ## Parameter download
 
-For testing our model, please download the file through the following link, unzip it, and add it to the best_model directory.
+For testing our model, please download the file through the following link, unzip it, and add it to the best_model directory. Finally rename the pth file as 'best_model.pth'
 
 * MP-U-Net : [unet4_best_model.pth](https://drive.google.com/file/d/1wG1WYUtJ49oS0JYVET-33aYvShEKotjf/view?usp=sharing)
 
