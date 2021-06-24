@@ -13,7 +13,7 @@ MAP was developed to achieve four objectives:
 
 Below shows a MAP tool caputre with buttons labeled to perform each of four objectives.
 
-![MAP image](https://github.com/powersimmani/Microplastics-Annotation-Package/MAP.png)
+![MAP image](https://github.com/powersimmani/Microplastics-Annotation-Package/blob/main/MAP.png)
 
 
 ## Additional informations
