@@ -18,7 +18,7 @@ Below shows a MAP tool caputre with buttons labeled to perform each of four obje
 
 ## Additional informations
 
-Guide video: ???
+Guide video: https://youtu.be/50GjP9gRza0
 More sample images: https://github.com/powersimmani/nile-red-microplastic-images
 
 ## Parameter download
