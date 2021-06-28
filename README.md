@@ -16,17 +16,17 @@ Below shows a MAP tool caputre with buttons labeled to perform each of four obje
   <img src="https://github.com/powersimmani/Microplastics-Annotation-Package/blob/main/MAP.png" width=70% height=70%>
 </p>
 
-글 작성 및 이미지 수정중입니다-백지연
-![Slide_7](https://user-images.githubusercontent.com/51187431/123610307-70149800-d83b-11eb-9a47-c32ac7d6cc3a.png)
-![Slide_8](https://user-images.githubusercontent.com/51187431/123610387-83276800-d83b-11eb-95e5-ef7373d18088.png)
-![Slide_10](https://user-images.githubusercontent.com/51187431/123610411-8884b280-d83b-11eb-9531-45d6d8a30c6b.png)
-![Slide_11](https://user-images.githubusercontent.com/51187431/123610414-891d4900-d83b-11eb-9adb-b7ee58c79e20.png)
-![Slide_16](https://user-images.githubusercontent.com/51187431/123610439-8e7a9380-d83b-11eb-979d-78c38a0153de.png)
-![Slide_17](https://user-images.githubusercontent.com/51187431/123610446-8fabc080-d83b-11eb-8b15-aef9662bc878.png)
-![Slide_21](https://user-images.githubusercontent.com/51187431/123610474-94707480-d83b-11eb-94f2-ac10e5546c12.png)
-![Slide_25](https://user-images.githubusercontent.com/51187431/123610478-95a1a180-d83b-11eb-9e4e-6940ec14cba9.png)
-![Slide_27](https://user-images.githubusercontent.com/51187431/123610484-96d2ce80-d83b-11eb-901f-0edeaeabc511.png)
 
+![original](https://user-images.githubusercontent.com/51187431/123714294-fc14d700-d8b0-11eb-8626-3630b04abdb8.png) width="50%"
+![mask](https://user-images.githubusercontent.com/51187431/123714299-fe773100-d8b0-11eb-97fb-7ff62a0732ed.png) width="50%"
+![masks](https://user-images.githubusercontent.com/51187431/123714312-08992f80-d8b1-11eb-9fc8-b501b2648da0.png) width="50%"
+![masks_overlay](https://user-images.githubusercontent.com/51187431/123714313-09ca5c80-d8b1-11eb-8936-d8b1ae8e8a7b.png) width="50%"
+![dots](https://user-images.githubusercontent.com/51187431/123714318-0c2cb680-d8b1-11eb-8e16-45e7cfd94d72.png) width="50%"
+![transparency](https://user-images.githubusercontent.com/51187431/123714332-10f16a80-d8b1-11eb-8628-dc64f032e431.png) width="50%"
+![transparency2](https://user-images.githubusercontent.com/51187431/123714336-12bb2e00-d8b1-11eb-895a-e01d7b9c5fbc.png) width="50%"
+![analysis](https://user-images.githubusercontent.com/51187431/123714349-18b10f00-d8b1-11eb-8cbe-ee1101e18c24.png) width="50%"
+![excel](https://user-images.githubusercontent.com/51187431/123714355-1b136900-d8b1-11eb-9baa-9757512a800d.png) width="50%"
+ 
 ## Additional informations
 
 Guide video: https://youtu.be/50GjP9gRza0
