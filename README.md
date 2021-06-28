@@ -17,11 +17,32 @@ Below shows a MAP tool caputre with buttons labeled to perform each of four obje
 </p>
 
 
+1. MP annotation
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/51187431/123714318-0c2cb680-d8b1-11eb-8e16-45e7cfd94d72.png" width="50%">
+</p>
+
+MAP provides manual annotation by users, easily by clicking/dragging the images.
+
+2. Mask generation with different thresholding models
+
  <img src="https://user-images.githubusercontent.com/51187431/123714294-fc14d700-d8b0-11eb-8626-3630b04abdb8.png" width="50%"><img src="https://user-images.githubusercontent.com/51187431/123714299-fe773100-d8b0-11eb-97fb-7ff62a0732ed.png" width="50%">
+ 
+Depending on the images, the performance of the fluorescent MP labeling differs among the TR models.
+
  <img src="https://user-images.githubusercontent.com/51187431/123714312-08992f80-d8b1-11eb-9fc8-b501b2648da0.png" width="50%"><img src="https://user-images.githubusercontent.com/51187431/123714313-09ca5c80-d8b1-11eb-8936-d8b1ae8e8a7b.png" width="50%">
- <img src="https://user-images.githubusercontent.com/51187431/123714318-0c2cb680-d8b1-11eb-8e16-45e7cfd94d72.png" width="50%">
+ 
+MAP provides overlay function to overlap the original image on the generated mask with custom transparency, so that the user can qualitatively examine the generated mask.
+
  <img src="https://user-images.githubusercontent.com/51187431/123714332-10f16a80-d8b1-11eb-8628-dc64f032e431.png" width="50%"><img src="https://user-images.githubusercontent.com/51187431/123714336-12bb2e00-d8b1-11eb-895a-e01d7b9c5fbc.png" width="50%">
+ 
+3. Analysis - graphical visualization & quantitative analysis 
+
  <img src="https://user-images.githubusercontent.com/51187431/123714349-18b10f00-d8b1-11eb-8cbe-ee1101e18c24.png" width="50%"><img src="https://user-images.githubusercontent.com/51187431/123714355-1b136900-d8b1-11eb-9baa-9757512a800d.png" width="50%">
+
+MAP provide graphical visualization tool where each MP particle is marked with green box and index. This analyzed image can also be saved separately.
+And the assigned index directly corresponds to the index in the resulted csv file from quantitative analysis.
 
 
 ## Additional informations
