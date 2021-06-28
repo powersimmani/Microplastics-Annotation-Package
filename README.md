@@ -16,6 +16,17 @@ Below shows a MAP tool caputre with buttons labeled to perform each of four obje
   <img src="https://github.com/powersimmani/Microplastics-Annotation-Package/blob/main/MAP.png" width=70% height=70%>
 </p>
 
+
+![Slide_7](https://user-images.githubusercontent.com/51187431/123610307-70149800-d83b-11eb-9a47-c32ac7d6cc3a.png)
+![Slide_8](https://user-images.githubusercontent.com/51187431/123610387-83276800-d83b-11eb-95e5-ef7373d18088.png)
+![Slide_10](https://user-images.githubusercontent.com/51187431/123610411-8884b280-d83b-11eb-9531-45d6d8a30c6b.png)
+![Slide_11](https://user-images.githubusercontent.com/51187431/123610414-891d4900-d83b-11eb-9adb-b7ee58c79e20.png)
+![Slide_16](https://user-images.githubusercontent.com/51187431/123610439-8e7a9380-d83b-11eb-979d-78c38a0153de.png)
+![Slide_17](https://user-images.githubusercontent.com/51187431/123610446-8fabc080-d83b-11eb-8b15-aef9662bc878.png)
+![Slide_21](https://user-images.githubusercontent.com/51187431/123610474-94707480-d83b-11eb-94f2-ac10e5546c12.png)
+![Slide_25](https://user-images.githubusercontent.com/51187431/123610478-95a1a180-d83b-11eb-9e4e-6940ec14cba9.png)
+![Slide_27](https://user-images.githubusercontent.com/51187431/123610484-96d2ce80-d83b-11eb-901f-0edeaeabc511.png)
+
 ## Additional informations
 
 Guide video: https://youtu.be/50GjP9gRza0
