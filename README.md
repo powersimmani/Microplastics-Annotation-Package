@@ -16,7 +16,7 @@ Below shows a MAP tool caputre with buttons labeled to perform each of four obje
   <img src="https://github.com/powersimmani/Microplastics-Annotation-Package/blob/main/MAP.png" width=70% height=70%>
 </p>
 
-
+수정중입니다-백지연
 ![Slide_7](https://user-images.githubusercontent.com/51187431/123610307-70149800-d83b-11eb-9a47-c32ac7d6cc3a.png)
 ![Slide_8](https://user-images.githubusercontent.com/51187431/123610387-83276800-d83b-11eb-95e5-ef7373d18088.png)
 ![Slide_10](https://user-images.githubusercontent.com/51187431/123610411-8884b280-d83b-11eb-9531-45d6d8a30c6b.png)
