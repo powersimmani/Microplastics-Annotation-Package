@@ -1,5 +1,7 @@
 # Microplastics-Annotation-Package (MAP)
 
+!!! We are planning to open the project as an executable file (.exe) for more accessiblility. This is expected to be released before October.
+
 ## Project
 
 With the rising need of automated microplastics (MP) monitoring tool, Microplastics Annotation Package (MAP) tool has been developed. It is a user-friendly tool where the users can perform both MP annotation and monitoring. 
