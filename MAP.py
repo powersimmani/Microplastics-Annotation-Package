@@ -203,25 +203,25 @@ class Window(QtWidgets.QWidget):
         self.viewer = PhotoViewer(self)
         # 'Load image' button
         self.btnLoad = QtWidgets.QToolButton(self)
-        self.btnLoad.setText('Fluorescent image')
+        self.btnLoad.setText('Fluorescent Image')
         self.btnLoad.clicked.connect(self.loadImage)
         self.btnLoad.setFont(QtGui.QFont("Helvetica",15, QtGui.QFont.Bold))
 
         # 'generate mask' button
         self.btnGen = QtWidgets.QToolButton(self)
-        self.btnGen.setText('Generated mask')
+        self.btnGen.setText('Generated Mask')
         self.btnGen.clicked.connect(self.generateMask)
         self.btnGen.setFont(QtGui.QFont("Helvetica",15, QtGui.QFont.Bold))
 
         # 'merge image mask' button
         self.btnMerge = QtWidgets.QToolButton(self)
-        self.btnMerge.setText('Overlay image')
+        self.btnMerge.setText('Overlay Image')
         self.btnMerge.clicked.connect(self.mergeImageMask)
         self.btnMerge.setFont(QtGui.QFont("Helvetica",15, QtGui.QFont.Bold))
 
         # Button to change from drag/pan to getting pixel info
         self.btnPixInfo = QtWidgets.QToolButton(self)
-        self.btnPixInfo.setText('Pixel annotate mode')
+        self.btnPixInfo.setText('Pixel Annotate Mode')
         self.btnPixInfo.clicked.connect(self.pixInfo)
         self.btnPixInfo.setFont(QtGui.QFont("Helvetica",15, QtGui.QFont.Bold))
 
@@ -239,25 +239,25 @@ class Window(QtWidgets.QWidget):
 
         # 'pixel-length' button
         self.btnPixlen = QtWidgets.QToolButton(self)
-        self.btnPixlen.setText('Measure-pixel-length')
+        self.btnPixlen.setText('Measure Pixel Length')
         self.btnPixlen.clicked.connect(self.plxel_length)
         self.btnPixlen.setFont(QtGui.QFont("Helvetica",15, QtGui.QFont.Bold))
 
         # 'remove-length' button
         self.btnRemovelen = QtWidgets.QToolButton(self)
-        self.btnRemovelen.setText('Remove-fluorescent pixels')
+        self.btnRemovelen.setText('Remove Fluorescent Pixels')
         self.btnRemovelen.clicked.connect(self.remove_length)
         self.btnRemovelen.setFont(QtGui.QFont("Helvetica",15, QtGui.QFont.Bold))
 
         # 'drag-annotate' button
         self.btnDragAnnotate = QtWidgets.QToolButton(self)
-        self.btnDragAnnotate.setText('Drag-annotate')
+        self.btnDragAnnotate.setText('Drag Annotate')
         self.btnDragAnnotate.clicked.connect(self.drag_annotate)
         self.btnDragAnnotate.setFont(QtGui.QFont("Helvetica",15, QtGui.QFont.Bold))
 
         # 'scroll-mode' button
         self.btnScrollMode = QtWidgets.QToolButton(self)
-        self.btnScrollMode.setText('Scroll-mode')
+        self.btnScrollMode.setText('Scroll Mode')
         self.btnScrollMode.clicked.connect(self.scroll_mode)
         self.btnScrollMode.setFont(QtGui.QFont("Helvetica",15, QtGui.QFont.Bold))
 
@@ -280,11 +280,11 @@ class Window(QtWidgets.QWidget):
         menu_mask_open_action.setStatusTip('Mask from outer image')
         menu_mask_open_action.triggered.connect(self.menu_mask_open)
 
-        menu_MP_VAT_action = QAction('&MP_VAT', self)
+        menu_MP_VAT_action = QAction('&MP-VAT', self)
         menu_MP_VAT_action.setStatusTip('MP_VAT from the fluorescent image')
         menu_MP_VAT_action.triggered.connect(self.menu_MP_VAT)
 
-        menu_MP_VAT_2_action = QAction('&MP_VAT_2', self)
+        menu_MP_VAT_2_action = QAction('&MP-VAT 2.0', self)
         menu_MP_VAT_2_action.setStatusTip('MP_VAT_2 from the fluorescent image')
         menu_MP_VAT_2_action.triggered.connect(self.menu_MP_VAT_2)
 
@@ -292,12 +292,12 @@ class Window(QtWidgets.QWidget):
         menu_UNet_action.setStatusTip('MP-Net from the fluorescent image')
         menu_UNet_action.triggered.connect(self.menu_UNet)
 
-        menu_custom_treshold_action = QAction('&Custom_threshold', self)
-        menu_custom_treshold_action.setStatusTip('Custom_threshold from the fluorescent image')
+        menu_custom_treshold_action = QAction('&Custom threshold', self)
+        menu_custom_treshold_action.setStatusTip('Custom threshold from the fluorescent image')
         menu_custom_treshold_action.triggered.connect(self.menu_custom_treshold)
 
-        menu_custom_transparency_action = QAction('&Custom_transparency', self)
-        menu_custom_transparency_action.setStatusTip('Custom_transparency for combining fluorescent image and its mask')
+        menu_custom_transparency_action = QAction('&Custom transparency', self)
+        menu_custom_transparency_action.setStatusTip('Custom transparency for combining fluorescent image and its mask')
         menu_custom_transparency_action.triggered.connect(self.menu_custom_transparency)
 
 
@@ -318,7 +318,7 @@ class Window(QtWidgets.QWidget):
         menu_brush_size_down_action.triggered.connect(self.menu_brush_size_down)
 
         menu_create_training_patches_action = QAction('&Create training patches', self)
-        menu_create_training_patches_action.setStatusTip('Create image-mask pair patches for training')
+        menu_create_training_patches_action.setStatusTip('Create image mask pair patches for training')
         menu_create_training_patches_action.triggered.connect(self.menu_create_training_patches)
 
         menu_set_mouse_scroll_action = QAction('&Set mouse scroll', self)
@@ -369,10 +369,10 @@ class Window(QtWidgets.QWidget):
         file_menu.addAction(menu_brush_size_up_action)
         file_menu.addAction(menu_brush_size_down_action)
 
-        file_menu = menu_bar.addMenu('&ModelTraining')
+        file_menu = menu_bar.addMenu('&Model Training')
         file_menu.addAction(menu_create_training_patches_action)
 
-        file_menu = menu_bar.addMenu('&MouseMode')
+        file_menu = menu_bar.addMenu('&Mouse Mode')
         file_menu.addAction(menu_set_mouse_scroll_action)
         file_menu.addAction(menu_set_mouse_measure_length_action)
         file_menu.addAction(menu_set_mouse_remove_original_action)
@@ -768,7 +768,7 @@ if __name__ == '__main__':
     import sys
     app = QtWidgets.QApplication(sys.argv)
     window = Window()
-    window.setWindowTitle("Microplastics-Annotation-Package (MAP)")
+    window.setWindowTitle("Microplastics Annotation Package (MAP)")
     window.setGeometry(500, 300, 1200, 800)
     window.show()
     sys.exit(app.exec_())
