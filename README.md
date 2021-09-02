@@ -51,7 +51,7 @@ And the assigned index directly corresponds to the index in the resulted csv fil
 
 ## Additional informations
 
-Guide video: https://youtu.be/50GjP9gRza0
+Guide video: https://youtu.be/ehmRbTbqOKU
 More sample images: https://github.com/powersimmani/nile-red-microplastic-images
 
 ## Parameter download
