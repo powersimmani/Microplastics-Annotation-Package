@@ -169,7 +169,7 @@ def renyi_entropy_imageJ(data):
     return threshold, ent_values_1,ent_values_2,ent_values_3
 
 
-def MP_ACT(mask_image,ori_image, micrometer_per_pix):
+def MP_ACT(mask_image,ori_image, micrometer_per_pix, file_name):
     mask_image = cv2.cvtColor(mask_image, cv2.COLOR_BGR2GRAY)
     ori_image_labeled = np.copy(ori_image)
 
@@ -178,8 +178,8 @@ def MP_ACT(mask_image,ori_image, micrometer_per_pix):
     #첫번째는 전체 컨투아가 잡힌건가?
     mp_shape_name = ["Fibers","Fragments","Particles"]
     mp_shape_count = {"Fibers":0,"Fragments":0,"Particles":0,"None":0}
-    f_out = open("result.csv","w")
-    f_out.write("Index,shape,location x,location y,area,feret_diameter,feret_degree,circulariy,roundess,perimeter\n")
+    f_out = open(file_name,"w")
+    f_out.write("Index,Shape,Location x,Location y,Area,Feret Diameter,Feret Degree,Circulariy,Roundness,Perimeter\n")
     for index,contour in enumerate(contour_list_cv2[1:]):
         
         rect = cv2.boundingRect(contour)
@@ -229,7 +229,8 @@ def MP_ACT(mask_image,ori_image, micrometer_per_pix):
         f_out.write(str(index)+","+str(mp_shape)+","+str(x+w*0.5)+","+str(y+h*0.5)+","+str(area*micrometer_per_pix*micrometer_per_pix)+","
                     +str(feret_diameters.argmax()*micrometer_per_pix)+","+str(angleInDegrees)+","+
                     str(circularity)+","+str(round_shape)+","+str(peri*micrometer_per_pix)+"\n")
-
+    
+    f_out.write("\n")
     f_out.write("None:"+str(mp_shape_count["None"])+"\n")
     f_out.write("Fibers:"+str(mp_shape_count["Fibers"])+"\n")
     f_out.write("Fragments:"+str(mp_shape_count["Fragments"])+"\n")
