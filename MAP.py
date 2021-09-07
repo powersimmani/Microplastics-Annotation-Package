@@ -251,7 +251,7 @@ class Window(QtWidgets.QWidget):
 
         # 'drag-annotate' button
         self.btnDragAnnotate = QtWidgets.QToolButton(self)
-        self.btnDragAnnotate.setText('Drag Annotate')
+        self.btnDragAnnotate.setText('Drag Annotation')
         self.btnDragAnnotate.clicked.connect(self.drag_annotate)
         self.btnDragAnnotate.setFont(QtGui.QFont("Helvetica",15, QtGui.QFont.Bold))
 
@@ -276,7 +276,7 @@ class Window(QtWidgets.QWidget):
         menu_save_action.setStatusTip('Save an image')
         menu_save_action.triggered.connect(self.menu_save_image)
 
-        menu_mask_open_action = QAction('&Open mask', self)
+        menu_mask_open_action = QAction('&Open Mask', self)
         menu_mask_open_action.setStatusTip('Mask from outer image')
         menu_mask_open_action.triggered.connect(self.menu_mask_open)
 
@@ -292,11 +292,11 @@ class Window(QtWidgets.QWidget):
         menu_UNet_action.setStatusTip('MP-Net from the fluorescent image')
         menu_UNet_action.triggered.connect(self.menu_UNet)
 
-        menu_custom_treshold_action = QAction('&Custom threshold', self)
+        menu_custom_treshold_action = QAction('&Custom Threshold', self)
         menu_custom_treshold_action.setStatusTip('Custom threshold from the fluorescent image')
         menu_custom_treshold_action.triggered.connect(self.menu_custom_treshold)
 
-        menu_custom_transparency_action = QAction('&Custom transparency', self)
+        menu_custom_transparency_action = QAction('&Custom Transparency', self)
         menu_custom_transparency_action.setStatusTip('Custom transparency for combining fluorescent image and its mask')
         menu_custom_transparency_action.triggered.connect(self.menu_custom_transparency)
 
@@ -307,17 +307,17 @@ class Window(QtWidgets.QWidget):
         menu_undo_action.triggered.connect(self.menu_undo)
 
 
-        menu_brush_size_up_action = QAction('&Brush size up', self)
+        menu_brush_size_up_action = QAction('&Brush Size Up', self)
         menu_brush_size_up_action.setShortcut('Ctrl+E')
         menu_brush_size_up_action.setStatusTip('Encrease the brush size')
         menu_brush_size_up_action.triggered.connect(self.menu_brush_size_up)
 
-        menu_brush_size_down_action = QAction('&Brush size down', self)
+        menu_brush_size_down_action = QAction('&Brush Size Down', self)
         menu_brush_size_down_action.setShortcut('Ctrl+D')
         menu_brush_size_down_action.setStatusTip('Decrease the brush size')
         menu_brush_size_down_action.triggered.connect(self.menu_brush_size_down)
 
-        menu_create_training_patches_action = QAction('&Create training patches', self)
+        menu_create_training_patches_action = QAction('&Create Training Patches', self)
         menu_create_training_patches_action.setStatusTip('Create image mask pair patches for training')
         menu_create_training_patches_action.triggered.connect(self.menu_create_training_patches)
 
@@ -544,7 +544,7 @@ class Window(QtWidgets.QWidget):
         self.pixInfo()
 
     def menu_set_mouse_drag_annotate(self):
-        self.status_bar.showMessage("Mouse drag annotate")
+        self.status_bar.showMessage("Mouse drag annotation")
         self.drag_annotate()
 
 
@@ -670,7 +670,7 @@ class Window(QtWidgets.QWidget):
 
         if FileSave[0] == '':
             return
-        self.viewer.labeled_image = MP_ACT(self.viewer.mask_image, self.viewer.ori_image,self.viewer.micrometer_per_pix,FileSave[0])
+        self.viewer.labeled_image = MP_ACT(self.viewer.mask_image, self.viewer.ori_image,self.viewer.micrometer_per_pix, FileSave[0])
         self.show_ndarray_on_screen(self.viewer.labeled_image)
         self.on_screen = "analysis"
 
