@@ -1,6 +1,6 @@
 # Microplastics-Annotation-Package (MAP)
 
-!!! We are planning to open the project as an executable file (.exe) for more accessiblility. This is expected to be released before October.
+!!! We are planning to open the project as an executable file (.exe) for more accessiblility. This is expected to be released soon.
 
 ## Project
 
