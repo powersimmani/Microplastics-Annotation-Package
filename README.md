@@ -68,11 +68,9 @@ For testing our model, please download the file through the following link, unzi
 
 Readers may use the following information to cite our research and the dataset.
 
-Baek, J. Y., de Guzman, M. K., Park, H. M., Park, S., Shin, B., Velickovic, T. C., ... & De Neve, W. (2021). Developing a Segmentation Model for Microscopic Images of Microplastics Isolated from Clams. In Pattern Recognition. ICPR International Workshops and Challenges (pp. 86-97). Springer International Publishing.
+Park, H. M., Park, S., de Guzman, M. K., Baek, J. Y., Cirkovic Velickovic, T., Van Messem, A., & De Neve, W. (2022). MP-Net: Deep learning-based segmentation for fluorescence microscopy images of microplastics isolated from clams. PloS one, 17(6), e0269449.
 
 **We also glad to get the new idea for upgrading software. lease feel free to contact us using 'issues' or following email address: homin.park@ghent.ac.kr**
-
-!!! This section will be updated when the expansive study is published.
 
 
 ## References
